@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fuente-monserat);
+}
+:root{
+    --color-primario:  black;
+    --color-secundario:  #f6f6f6;
+    --color-terciario:  #22d4fd;
+    --fuente-monserat: 'Montserrat', sans-serif;
+    --fuente-krona: 'Krona One', sans-serif;
+    --color-hover: #272727;
+}
+
+header{
+    
+    row-gap: 2em;
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+    padding: 1% 0% 0% 10%;
+    color:var(--color-terciario);
+    font-family: var(--fuente-monserat);
+    display: flex;
+    color: var(--color-terciario);
+}
+
+.header_enlaces{
+    text-decoration:none;
+    border: 2px solid var(--color-secundario);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5em;
+}
+.logo_educol{
+height: 10%;
+width: 10%;
+padding-bottom: 1em;
+
+
+}
+
+.PP_contenido_principal{
+    background-color: var(--color-primario);
+    color:var(--color-secundario);
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 4% 8%;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.PP_contenido{
+font-family: var(--fuente-krona);
+
+}
+.PP_titulo2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 6%;
+    padding-bottom: 0%;
+}
+
+.PP_contenido2{
+    font-family: var(--fuente-krona);
+
+}
+.PP_contenido2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+.imagenPP{
+    background-color: var(--color-primario);
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    width: 40em;
+    color: var(--color-primario);
+    
+}
+
+.PC_texto_principal{
+    background-color: var(--color-primario);
+    color:var(--color-secundario);
+    padding: 2em;
+
+}
+
+
+.PP_titulo{
+    font-family: var(--fuente-krona);
+  
+}
+
+.maestraYkids{
+
+width: 40em;
+background-color: var(--color-primario);
+}
+.caja_cursos{
+
+    padding: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border: solid;
+
+}
+.primero{
+    color: var(--color-secundario);
+    text-decoration: none;
+    font-family: var(--fuente-monserat);
+    font-weight: 600;
+}
+
+.P_contenido_principal{
+    background-color: var(--color-primario);
+    color:var(--color-secundario);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 4% 8%;
+}
+
+.suma{
+    display: flex;
+    align-items: center;
+    font-family: var(--fuente-monserat);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 25rem;
+}
+.video_suma{
+    display:flexbox;
+    align-items: center;
+    padding-left: 15em;
+
+}
+.contacto_miembros{
+    margin: 2em;
+   
+    text-align: justify;
+}
+.presentacion__enlaces{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.presentacion_botones{
+    border: 2px solid var(--color-secundario);
+    width: 50%;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-family: var(--fuente-monserat);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.presentacion_botones:hover{
+    background-color: var(--color-hover);
+}
+
+@media(max-width: 1200px){
+
+    .header{
+        padding: 10%;
+        justify-content: center;
+    }
+    .header_menu{
+        justify-content: center;
+    }
+    .PP_contenido_principal{
+        flex-direction: column-reverse;
+        padding:5%;
+    }
+
+    .PP_contenido_principal{
+        width: auto;
+    }
+
+
+}
