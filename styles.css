@@ -44,7 +44,7 @@ padding-bottom: 1em;
 }
 
 .PP_contenido_principal{
-    background-color: var(--color-primario);
+    
     color:var(--color-secundario);
     height: 100vh;
     box-sizing: border-box;
